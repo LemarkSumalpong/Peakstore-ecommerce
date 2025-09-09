@@ -49,7 +49,7 @@ function NavBar() {
             />
           </ul>
         </div>
-        <nav className="flex justify-between items-center container mx-auto py-1 ">
+        <nav className="flex justify-between items-center container mx-auto py-2 ">
           <div className="flex items-center">
             <Link to="/" className=" py-2 px-4 rounded">
               <img src={logo} alt="PeakStore logo" className="h-12 w-auto" />
@@ -59,7 +59,7 @@ function NavBar() {
             <input
               type="text"
               placeholder="Search Product..."
-              className="bg-zinc-100 rounded-md border borders-zinc-200 focus:outline-none py-3 px-3 w-full"
+              className="bg-zinc-100100 rounded-md border borders-zinc-200 focus:outline-none py-3 px-3 w-full"
             />
           </form>
           <Link>
