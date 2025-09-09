@@ -1,6 +1,7 @@
 import { User } from 'lucide-react';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/img/logo.png'
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,6 +47,13 @@ function NavBar() {
             />
           </ul>
         </div>
+        <nav className='flex justify-between items-center container mx-auto py-2 '>
+          <div className='flex items-center'>
+            <Link to='/' className=' py-2 px-4 rounded'>
+            <img src={logo} alt="PeakStore logo" className='h-12 w-auto' />
+            </Link>
+          </div>
+        </nav>
       </>
     </header>
   );
