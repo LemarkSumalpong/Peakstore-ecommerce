@@ -1,3 +1,4 @@
+import { User } from 'lucide-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -21,6 +22,15 @@ function NavBar() {
                         <Link to='/'>Contact</Link>
                     </li>
                 </div>
+                <div>
+                    <li>
+                        <Link to='/'>Sign</Link>
+                    </li>
+                      <li>
+                        <Link to='/'>My Account</Link>
+                    </li>
+                </div>
+                <User size={40} className='bg-gray-200 p-2 text-black rounded cursor-pointer'/>
             </ul>
         </div>
         </>
