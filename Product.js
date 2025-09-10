@@ -5,7 +5,7 @@ const Products = [
         price:63990.00,
         category:"Mobile Phones & Tablets",
         description:"iPhone 15 Pro Max. Forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever.",
-        image:"",
+        image:"/src/assets/img/phones-tablets/iphone15promax.jpg",
     },
      {
         id: 2,
@@ -13,7 +13,7 @@ const Products = [
         price:84990.00,
         category:"Mobile Phones & Tablets",
         description:"Capture the world in unprecedented detail with Galaxy S24 Ultras 200MP camera and AI-powered Nightography. Built with a titanium frame and S Pen support.",
-        image:"",
+        image:"/src/assets/img/phones-tablets/galaxys24ultra.jpg",
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const Products = [
         price:25999.99,
         category:"Mobile Phones & Tablets",
         description:"Pixel 8 is powered by Google AI to help you do more, with the best Pixel Camera yet, powerful security features, and 7 years of software updates.",
-        image:"",
+        image:"/src/assets/img/phones-tablets/googlepixel8.jpg",
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ const Products = [
         price:44990.00,
         category:"Mobile Phones & Tablets",
         description:"iPad Air. Now supercharged by the incredibly fast Apple M2 chip. Featuring a stunning Liquid Retina display, all-day battery life, and support for Apple Pencil Pro.",
-        image:"",
+        image:"/src/assets/img/phones-tablets/ipadair.jpg",
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ const Products = [
         price:21999.99,
         category:"Mobile Phones & Tablets",
         description:"Xiaomi Pad 6 features a 11-inch WQHD+ 144Hz display, Snapdragon 870 processor, and lightweight design—perfect for work, creativity, and entertainment.",
-        image:"",
+        image:"/src/assets/img/phones-tablets/xiaomipad6.jpg",
     },
     {
     id: 6,
