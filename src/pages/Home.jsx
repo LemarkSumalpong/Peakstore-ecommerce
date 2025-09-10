@@ -1,11 +1,30 @@
-import React from 'react'
+const Categories = [
+  'ALL',
+  'Mobile Phones & Tablets',
+  'Laptops & Computers',
+  'Audio & Wearables',
+  'Gaming Gears',
+  'Smart Home',
+  'Accessories',
+];
 
 function Home() {
   return (
-    <div className='bg'>
-      
+    <div>
+      <div className="bg"></div>
+      <div className="container mx-auto my-10 px-4">
+        <div className="flex gap-4">
+          {Categories.map((category) =>{
+            return (
+              <button className="bg-gray-300 py-2 px-4 rounded-md text-black  active:scale-105 hover:bg-zinc-400 transition-all ease-in" key={category}>
+            {category}
+          </button>
+            )
+          })}
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
