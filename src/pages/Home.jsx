@@ -1,3 +1,5 @@
+import ProductGrid from "../components/ProductGrid";
+
 const Categories = [
   'ALL',
   'Mobile Phones & Tablets',
@@ -22,6 +24,7 @@ function Home() {
             )
           })}
         </div>
+        <ProductGrid />
       </div>
     </div>
   );
