@@ -59,7 +59,7 @@ function NavBar() {
             <input
               type="text"
               placeholder="Search Product..."
-              className="bg-zinc-100100 rounded-md border borders-zinc-200 focus:outline-none py-3 px-3 w-full"
+              className="bg-zinc-100100 rounded-md border borders-zinc-100 focus:outline-none py-3 px-3 w-full"
             />
           </form>
           <Link>

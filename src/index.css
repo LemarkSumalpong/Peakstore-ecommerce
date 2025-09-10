@@ -4,3 +4,10 @@
 body {
     font-family: "Poppins",
 }
+.bg {
+    background: url('./assets/img/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+
+}
