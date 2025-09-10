@@ -45,7 +45,7 @@ const Products = [
     price:64990.00,
     category:"Laptops & Computers",
     description:"MacBook Air with the Apple M3 chip delivers faster performance in a thin and light design, featuring a brilliant Liquid Retina display and all-day battery life.",
-    image:"",
+    image:"/assets/img/laptops-computers/MacBookAirM3.jpg",
 },
 {
     id: 7,
@@ -53,7 +53,7 @@ const Products = [
     price:57990.00,
     category:"Laptops & Computers",
     description:"The Dell XPS 13 combines a stunning InfinityEdge display with powerful Intel processors, all in an ultra-portable and durable design.",
-    image:"",
+    image:"/assets/img/laptops-computers/DellXP13.jpg",
 },
 {
     id: 8,
@@ -61,7 +61,7 @@ const Products = [
     price:89990.00,
     category:"Laptops & Computers",
     description:"ASUS ROG Strix G16 is a high-performance gaming laptop with NVIDIA GeForce RTX graphics, 13th Gen Intel processors, and a 165Hz display for smooth gameplay.",
-    image:"",
+    image:"/assets/img/laptops-computers/ASUS.jpg",
 },
 {
     id: 9,
@@ -69,7 +69,7 @@ const Products = [
     price:74990.00,
     category:"Laptops & Computers",
     description:"The Lenovo ThinkPad X1 Carbon delivers professional performance with Intel Core processors, legendary ThinkPad durability, and business-grade security features.",
-    image:"",
+    image:"/assets/img/laptops-computers/Lenovo.jpg",
 },
 {
     id: 10,
@@ -77,7 +77,7 @@ const Products = [
     price:42990.00,
     category:"Laptops & Computers",
     description:"HP Pavilion Desktop PC offers reliable performance for everyday tasks with powerful Intel processors, modern design, and expandability options.",
-    image:"",
+    image:"/assets/img/laptops-computers/HPPavilionDesktop.jpg",
 },
 {
     id: 11,
