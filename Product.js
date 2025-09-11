@@ -249,7 +249,7 @@ const Products = [
     price:1490.00,
     category:"Accessories",
     description:"Spigen case for iPhone 15 Pro offers slim protection with shock-absorbing TPU and raised edges.",
-    image:"",
+    image:"/src/assets/img/accessories/SpigenProCase.jpg",
 },
 {
     id: 32,
@@ -257,7 +257,7 @@ const Products = [
     price:990.00,
     category:"Accessories",
     description:"Durable tempered glass screen protector designed for Samsung Galaxy S24 Ultra with anti-scratch coating.",
-    image:"",
+    image:"/src/assets/img/accessories/SamsungProtector.jpg",
 },
 {
     id: 33,
@@ -265,7 +265,7 @@ const Products = [
     price:5990.00,
     category:"Accessories",
     description:"Logitech MX Master 3S mouse features ultra-quiet clicks, MagSpeed scrolling, and ergonomic design.",
-    image:"",
+    image:"/src/assets/img/accessories/Logitech.jpg",
 },
 {
     id: 34,
@@ -273,7 +273,7 @@ const Products = [
     price:5990.00,
     category:"Accessories",
     description:"WD My Passport 2TB external hard drive provides reliable storage with USB 3.0 compatibility.",
-    image:"",
+    image:"/src/assets/img/accessories/WD.jpg",
 },
 {
     id: 35,
@@ -281,7 +281,7 @@ const Products = [
     price:1290.00,
     category:"Accessories",
     description:"SanDisk Ultra microSD 128GB delivers fast transfer speeds, reliable storage, and A1-rated app performance.",
-    image:"",
+    image:"/src/assets/img/accessories/SanDisk.jpg",
 },
 
 ];
