@@ -208,7 +208,7 @@ const Products = [
     price:3490.00,
     category:"Smart Home",
     description:"Echo Dot (5th Gen) with Alexa delivers clear sound, smart home controls, and hands-free assistance.",
-    image:"",
+    image:"/assets/img/smarthomes/AmazonEchoDot.jpg",
 },
 {
     id: 27,
@@ -216,7 +216,7 @@ const Products = [
     price:4990.00,
     category:"Smart Home",
     description:"Google Nest Hub 2 features a 7-inch display, voice assistant, and seamless smart home device control.",
-    image:"",
+    image:"/assets/img/smarthomes/GoogleNestHub.jpg",
 },
 {
     id: 28,
@@ -224,7 +224,7 @@ const Products = [
     price:5990.00,
     category:"Smart Home",
     description:"Philips Hue Starter Kit offers smart color-changing LED bulbs with app and voice control.",
-    image:"",
+    image:"/assets/img/smarthomes/Philips.jpg",
 },
 {
     id: 29,
@@ -232,7 +232,7 @@ const Products = [
     price:8990.00,
     category:"Smart Home",
     description:"Xiaomi Smart Air Purifier 4 improves indoor air quality with high-precision filtration and smart app control.",
-    image:"",
+    image:"/assets/img/smarthomes/Xiaomi.jpg",
 },
 {
     id: 30,
@@ -240,7 +240,7 @@ const Products = [
     price:7990.00,
     category:"Smart Home",
     description:"Ring Video Doorbell 4 provides 1080p video, two-way audio, and real-time motion alerts for home security.",
-    image:"",
+    image:"/assets/img/smarthomes/RingVideo.jpg",
 },
 
 {
