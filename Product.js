@@ -85,7 +85,7 @@ const Products = [
     price:14990.00,
     category:"Audio & Wearables",
     description:"AirPods Pro (2nd Gen) feature active noise cancellation, adaptive transparency, personalized spatial audio, and a MagSafe charging case.",
-    image:"",
+    image:"/assets/img/audio-wearables/airpodspro2.jpg",
 },
 {
     id: 12,
@@ -93,7 +93,7 @@ const Products = [
     price:19990.00,
     category:"Audio & Wearables",
     description:"Sony WH-1000XM5 headphones provide industry-leading noise cancellation, premium sound, and up to 30 hours of battery life.",
-    image:"",
+    image:"/assets/img/audio-wearables/SonyWH.jpg",
 },
 {
     id: 13,
@@ -101,7 +101,7 @@ const Products = [
     price:16990.00,
     category:"Audio & Wearables",
     description:"Galaxy Watch 6 helps you stay connected and healthy with advanced fitness tracking, customizable watch faces, and seamless Galaxy ecosystem integration.",
-    image:"",
+    image:"/assets/img/audio-wearables/SamsungGalaxyWatch.jpg",
 },
 {
     id: 14,
@@ -109,7 +109,7 @@ const Products = [
     price:12990.00,
     category:"Audio & Wearables",
     description:"Fitbit Versa 4 is a lightweight smartwatch with 24/7 heart rate monitoring, GPS tracking, fitness modes, and Google integration.",
-    image:"",
+    image:"/src/assets/img/audio-wearables/FitbitVersa4.jpg",
 },
 {
     id: 15,
@@ -117,7 +117,7 @@ const Products = [
     price:8990.00,
     category:"Audio & Wearables",
     description:"JBL Charge 5 is a portable Bluetooth speaker with bold sound, deep bass, built-in power bank, and IP67 waterproof rating.",
-    image:"",
+    image:"/assets/img/audio-wearables/JBLCharge5.jpg",
 },
 
 {
