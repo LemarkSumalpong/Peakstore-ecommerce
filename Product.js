@@ -167,7 +167,7 @@ const Products = [
     price:2990.00,
     category:"Chargers & Power",
     description:"Anker 65W GaN charger delivers ultra-fast charging with compact design, supporting multiple devices simultaneously.",
-    image:"",
+    image:"/src/assets/img/Power/Anker.jpg",
 },
 {
     id: 22,
@@ -175,7 +175,7 @@ const Products = [
     price:3490.00,
     category:"Chargers & Power",
     description:"Belkin MagSafe charger provides secure, fast wireless charging for iPhone with magnetic alignment.",
-    image:"",
+    image:"/src/assets/img/Power/Belkin.jpg",
 },
 {
     id: 23,
@@ -183,7 +183,7 @@ const Products = [
     price:2490.00,
     category:"Chargers & Power",
     description:"Baseus high-capacity power bank with 20,000mAh, fast charging, and dual output ports for multiple devices.",
-    image:"",
+    image:"/src/assets/img/Power/Baseus.jpg",
 },
 {
     id: 24,
@@ -191,7 +191,7 @@ const Products = [
     price:3990.00,
     category:"Chargers & Power",
     description:"UGREEN 6-in-1 charging station offers multiple USB-C and USB-A ports with fast charging support.",
-    image:"",
+    image:"/src/assets/img/Power/UGREEN.jpg",
 },
 {
     id: 25,
@@ -199,7 +199,7 @@ const Products = [
     price:1290.00,
     category:"Chargers & Power",
     description:"Aukey car charger provides dual USB fast charging for devices while on the go.",
-    image:"",
+    image:"/src/assets/img/Power/Aukey.jpg",
 },
 
 {
