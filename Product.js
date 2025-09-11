@@ -126,7 +126,7 @@ const Products = [
     price:29990.00,
     category:"Gaming Gear",
     description:"PlayStation 5 delivers lightning-fast loading, immersive 3D audio, adaptive triggers, and a new generation of console gaming experiences.",
-    image:"",
+    image:"/assets/img/gaming-gear/PlayStation5.jpg",
 },
 {
     id: 17,
@@ -134,7 +134,7 @@ const Products = [
     price:28990.00,
     category:"Gaming Gear",
     description:"Xbox Series X is the most powerful Xbox ever, offering true 4K gaming, up to 120 FPS, and backward compatibility with thousands of titles.",
-    image:"",
+    image:"/assets/img/gaming-gear/XboxSeriesX.jpg",
 },
 {
     id: 18,
@@ -142,7 +142,7 @@ const Products = [
     price:17990.00,
     category:"Gaming Gear",
     description:"Nintendo Switch OLED model features a vibrant 7-inch OLED screen, enhanced audio, and versatile handheld or docked play modes.",
-    image:"",
+    image:"/assets/img/gaming-gear/NintendoSwitch.jpg",
 },
 {
     id: 19,
@@ -150,7 +150,7 @@ const Products = [
     price:9990.00,
     category:"Gaming Gear",
     description:"Razer BlackWidow V4 mechanical keyboard offers tactile switches, per-key RGB lighting, and dedicated macro controls for gamers.",
-    image:"",
+    image:"/assets/img/gaming-gear/RazerBlackWidow.jpg",
 },
 {
     id: 20,
@@ -158,7 +158,7 @@ const Products = [
     price:6990.00,
     category:"Gaming Gear",
     description:"Logitech G502 X Plus gaming mouse features LIGHTSPEED wireless, customizable buttons, and HERO 25K precision sensor.",
-    image:"",
+    image:"/assets/img/gaming-gear/Logitech.jpg",
 },
 
 {
