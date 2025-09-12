@@ -17,7 +17,7 @@ function ProductCard({ product }) {
             {product.name}
           </h3>
           <div className="flex justify-between  mt-4">
-            <p>₱{formatPrice(product.price)}</p>
+            <p className='text-yellow-700 font-semibold'>₱{formatPrice(product.price)}</p>
             <p>View Details</p>
           </div>
         </div>
