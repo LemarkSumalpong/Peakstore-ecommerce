@@ -5,7 +5,7 @@ const Products = [
         price:63990.00,
         category:"Mobile Phones & Tablets",
         description:"iPhone 15 Pro Max. Forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever.",
-        image:"/src/assets/img/phones-tablets/iphone15promax.jpg",
+        image:"/src/assets/img/phones-tablet/iphone15promax.jpg",
     },
      {
         id: 2,
@@ -13,7 +13,7 @@ const Products = [
         price:84990.00,
         category:"Mobile Phones & Tablets",
         description:"Capture the world in unprecedented detail with Galaxy S24 Ultras 200MP camera and AI-powered Nightography. Built with a titanium frame and S Pen support.",
-        image:"/src/assets/img/phones-tablets/galaxys24ultra.jpg",
+        image:"/src/assets/img/phones-tablet/galaxys24ultra.jpg",
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const Products = [
         price:25999.99,
         category:"Mobile Phones & Tablets",
         description:"Pixel 8 is powered by Google AI to help you do more, with the best Pixel Camera yet, powerful security features, and 7 years of software updates.",
-        image:"/src/assets/img/phones-tablets/googlepixel8.jpg",
+        image:"/src/assets/img/phones-tablet/googlepixel8.jpg",
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ const Products = [
         price:44990.00,
         category:"Mobile Phones & Tablets",
         description:"iPad Air. Now supercharged by the incredibly fast Apple M2 chip. Featuring a stunning Liquid Retina display, all-day battery life, and support for Apple Pencil Pro.",
-        image:"/src/assets/img/phones-tablets/ipadair.jpg",
+        image:"/src/assets/img/phones-tablet/ipadair.jpg",
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ const Products = [
         price:21999.99,
         category:"Mobile Phones & Tablets",
         description:"Xiaomi Pad 6 features a 11-inch WQHD+ 144Hz display, Snapdragon 870 processor, and lightweight design—perfect for work, creativity, and entertainment.",
-        image:"/src/assets/img/phones-tablets/xiaomipad6.jpg",
+        image:"/src/assets/img/phones-tablet/xiaomipad6.jpg",
     },
     {
     id: 6,
@@ -45,7 +45,7 @@ const Products = [
     price:64990.00,
     category:"Laptops & Computers",
     description:"MacBook Air with the Apple M3 chip delivers faster performance in a thin and light design, featuring a brilliant Liquid Retina display and all-day battery life.",
-    image:"/assets/img/laptops-computers/MacBookAirM3.jpg",
+    image:"/src/assets/img/Laptops-pc/MacBookAirM3.jpg",
 },
 {
     id: 7,
@@ -53,7 +53,7 @@ const Products = [
     price:57990.00,
     category:"Laptops & Computers",
     description:"The Dell XPS 13 combines a stunning InfinityEdge display with powerful Intel processors, all in an ultra-portable and durable design.",
-    image:"/assets/img/laptops-computers/DellXP13.jpg",
+    image:"/src/assets/img/Laptops-pc/DellXPS13.jpg",
 },
 {
     id: 8,
@@ -61,7 +61,7 @@ const Products = [
     price:89990.00,
     category:"Laptops & Computers",
     description:"ASUS ROG Strix G16 is a high-performance gaming laptop with NVIDIA GeForce RTX graphics, 13th Gen Intel processors, and a 165Hz display for smooth gameplay.",
-    image:"/assets/img/laptops-computers/ASUS.jpg",
+    image:"/src/assets/img/Laptops-pc/ASUS.jpg",
 },
 {
     id: 9,
@@ -69,7 +69,7 @@ const Products = [
     price:74990.00,
     category:"Laptops & Computers",
     description:"The Lenovo ThinkPad X1 Carbon delivers professional performance with Intel Core processors, legendary ThinkPad durability, and business-grade security features.",
-    image:"/assets/img/laptops-computers/Lenovo.jpg",
+    image:"/src/assets/img/Laptops-pc/Lenovo.jpg",
 },
 {
     id: 10,
@@ -77,7 +77,7 @@ const Products = [
     price:42990.00,
     category:"Laptops & Computers",
     description:"HP Pavilion Desktop PC offers reliable performance for everyday tasks with powerful Intel processors, modern design, and expandability options.",
-    image:"/assets/img/laptops-computers/HPPavilionDesktop.jpg",
+    image:"/src/assets/img/Laptops-pc/HPPavilionDesktop.jpg",
 },
 {
     id: 11,
@@ -85,7 +85,7 @@ const Products = [
     price:14990.00,
     category:"Audio & Wearables",
     description:"AirPods Pro (2nd Gen) feature active noise cancellation, adaptive transparency, personalized spatial audio, and a MagSafe charging case.",
-    image:"/assets/img/audio-wearables/airpodspro2.jpg",
+    image:"/src/assets/img/audio-wearables/airpodspro2.jpg",
 },
 {
     id: 12,
@@ -93,7 +93,7 @@ const Products = [
     price:19990.00,
     category:"Audio & Wearables",
     description:"Sony WH-1000XM5 headphones provide industry-leading noise cancellation, premium sound, and up to 30 hours of battery life.",
-    image:"/assets/img/audio-wearables/SonyWH.jpg",
+    image:"/src/assets/img/audio-wearables/SonyWH.jpg",
 },
 {
     id: 13,
@@ -101,7 +101,7 @@ const Products = [
     price:16990.00,
     category:"Audio & Wearables",
     description:"Galaxy Watch 6 helps you stay connected and healthy with advanced fitness tracking, customizable watch faces, and seamless Galaxy ecosystem integration.",
-    image:"/assets/img/audio-wearables/SamsungGalaxyWatch.jpg",
+    image:"/src/assets/img/audio-wearables/SamsungGalaxyWatch.jpg",
 },
 {
     id: 14,
@@ -117,7 +117,7 @@ const Products = [
     price:8990.00,
     category:"Audio & Wearables",
     description:"JBL Charge 5 is a portable Bluetooth speaker with bold sound, deep bass, built-in power bank, and IP67 waterproof rating.",
-    image:"/assets/img/audio-wearables/JBLCharge5.jpg",
+    image:"/src/assets/img/audio-wearables/JBLCharge5.jpg",
 },
 
 {
@@ -126,7 +126,7 @@ const Products = [
     price:29990.00,
     category:"Gaming Gear",
     description:"PlayStation 5 delivers lightning-fast loading, immersive 3D audio, adaptive triggers, and a new generation of console gaming experiences.",
-    image:"/assets/img/gaming-gear/PlayStation5.jpg",
+    image:"/src/assets/img/gaminggears/PlayStation5.jpg",
 },
 {
     id: 17,
@@ -134,7 +134,7 @@ const Products = [
     price:28990.00,
     category:"Gaming Gear",
     description:"Xbox Series X is the most powerful Xbox ever, offering true 4K gaming, up to 120 FPS, and backward compatibility with thousands of titles.",
-    image:"/assets/img/gaming-gear/XboxSeriesX.jpg",
+    image:"/src/assets/img/gaminggears/XboxSeriesX.jpg",
 },
 {
     id: 18,
@@ -142,7 +142,7 @@ const Products = [
     price:17990.00,
     category:"Gaming Gear",
     description:"Nintendo Switch OLED model features a vibrant 7-inch OLED screen, enhanced audio, and versatile handheld or docked play modes.",
-    image:"/assets/img/gaming-gear/NintendoSwitch.jpg",
+    image:"/src/assets/img/gaminggears/NintendoSwitch.jpg",
 },
 {
     id: 19,
@@ -150,7 +150,7 @@ const Products = [
     price:9990.00,
     category:"Gaming Gear",
     description:"Razer BlackWidow V4 mechanical keyboard offers tactile switches, per-key RGB lighting, and dedicated macro controls for gamers.",
-    image:"/assets/img/gaming-gear/RazerBlackWidow.jpg",
+    image:"/src/assets/img/gaminggears/RazerBlackWidow.jpg",
 },
 {
     id: 20,
@@ -158,7 +158,7 @@ const Products = [
     price:6990.00,
     category:"Gaming Gear",
     description:"Logitech G502 X Plus gaming mouse features LIGHTSPEED wireless, customizable buttons, and HERO 25K precision sensor.",
-    image:"/assets/img/gaming-gear/Logitech.jpg",
+    image:"/src/assets/img/gaminggears/Logitech.jpg",
 },
 
 {
@@ -208,7 +208,7 @@ const Products = [
     price:3490.00,
     category:"Smart Home",
     description:"Echo Dot (5th Gen) with Alexa delivers clear sound, smart home controls, and hands-free assistance.",
-    image:"/assets/img/smarthomes/AmazonEchoDot.jpg",
+    image:"/src/assets/img/smarthomes/AmazonEchoDot.jpg",
 },
 {
     id: 27,
@@ -216,7 +216,7 @@ const Products = [
     price:4990.00,
     category:"Smart Home",
     description:"Google Nest Hub 2 features a 7-inch display, voice assistant, and seamless smart home device control.",
-    image:"/assets/img/smarthomes/GoogleNestHub.jpg",
+    image:"/src/assets/img/smarthomes/GoogleNestHub.jpg",
 },
 {
     id: 28,
@@ -224,7 +224,7 @@ const Products = [
     price:5990.00,
     category:"Smart Home",
     description:"Philips Hue Starter Kit offers smart color-changing LED bulbs with app and voice control.",
-    image:"/assets/img/smarthomes/Philips.jpg",
+    image:"/src/assets/img/smarthomes/Philips.jpg",
 },
 {
     id: 29,
@@ -232,7 +232,7 @@ const Products = [
     price:8990.00,
     category:"Smart Home",
     description:"Xiaomi Smart Air Purifier 4 improves indoor air quality with high-precision filtration and smart app control.",
-    image:"/assets/img/smarthomes/Xiaomi.jpg",
+    image:"/src/assets/img/smarthomes/Xiaomi.jpg",
 },
 {
     id: 30,
@@ -240,7 +240,7 @@ const Products = [
     price:7990.00,
     category:"Smart Home",
     description:"Ring Video Doorbell 4 provides 1080p video, two-way audio, and real-time motion alerts for home security.",
-    image:"/assets/img/smarthomes/RingVideo.jpg",
+    image:"/src/assets/img/smarthomes/RingVideo.jpg",
 },
 
 {
