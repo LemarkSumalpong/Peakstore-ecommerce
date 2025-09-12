@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import { formatPrice } from '../utils/format';
 
 function ProductCard({product}) {
   return (
@@ -8,7 +9,7 @@ function ProductCard({product}) {
     <img src={product.image} alt={product.name} className='max-h-full object-contain' />
   </div>
   <h3 className='mt-3 font-semibold text-base items-center text-center'>{product.name}</h3>
-    <p className='text-sm text-gray-600 text-center mt-1'>₱{product.price.toFixed(2)}</p>
+    <p className='text-sm text-gray-600 text-center mt-1'>₱{formatPrice(product.price)}</p>
     <p className='items-center text-center mt-1'>{product.category}</p>
   </div>
   </Link>
