@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import ProductGrid from "../components/ProductGrid";
 
 const Categories = [
@@ -26,6 +27,7 @@ function Home() {
         </div>
         <ProductGrid />
       </div>
+      <Footer />
     </div>
   );
 }
