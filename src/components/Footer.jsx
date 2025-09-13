@@ -16,7 +16,7 @@ function Footer() {
           <div className='md:col-span-2'>
             <h2 className="text-blue-400 text-2xl ">Contact Us</h2>
             <h3 className="text-white text-2xl font-sans font-semibold">
-              Let's Discuss Your Vision, With Us
+              Let's Discuss Your <span className='block'>Vision, With Us</span>
             </h3>
 
             <div className="mt-4">
@@ -77,7 +77,7 @@ function Footer() {
                 </ul>
             </div>
           </div>
-          <div className="border-t border-gray-700 mt-8">
+          <div className="border-t border-gray-700 mt-2">
             <div className="flex items-center justify-between py-6">
               <p className="text-blue-400 text-sm">
                 &copy; 2024 PeakStore. All rights reserved.
