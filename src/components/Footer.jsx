@@ -6,12 +6,10 @@ import {
   Mail,
   Twitter,
 } from 'lucide-react';
-import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="bg-slate-900 shadow-md py-4 px-10">
+    <footer className="bg-slate-900 shadow-md py-4 px-10 ">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
         <div>
           <h2 className="text-blue-400 text-2xl ">Contact Us</h2>
