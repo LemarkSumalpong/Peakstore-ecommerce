@@ -7,6 +7,7 @@ const initialState = {
     searchTerm: "",
 };
 
+// Function to filter products based on search term
 const filterProducts = (state) => {
     return state.items.filter((product) => {
         const matchSearch = product.name
