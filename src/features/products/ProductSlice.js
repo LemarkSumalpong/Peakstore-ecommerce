@@ -1,4 +1,5 @@
 import Products from "../../../Product";
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     items: Products,
@@ -8,7 +9,8 @@ const initialState = {
 
 const filterProducts = (state) => {
     return state.items.filter((product) => {
-        const matchSearch = product.name.toLowerCase()
+        const matchSearch = product.name
+        .toLowerCase()
         .includes(state.searchTerm.toLowerCase());
         return matchSearch;
     })
