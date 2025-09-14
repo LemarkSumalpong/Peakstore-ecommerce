@@ -34,6 +34,7 @@ function Footer() {
               </button>
             </div>
             </div>
+            
               <div>
                 <h3  className="text-lg font-semibold mb-4 text-blue-400">Qick Links</h3>
                 <ul className="space-y-2 text-sm text-white">
@@ -51,6 +52,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
+
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-blue-400">Information</h3>
                 <ul className="space-y-2 text-sm text-white">
@@ -77,6 +79,7 @@ function Footer() {
                 </ul>
             </div>
           </div>
+          
           <div className="border-t border-gray-700 mt-2">
             <div className="flex items-center justify-between py-6">
               <p className="text-blue-400 text-sm">
