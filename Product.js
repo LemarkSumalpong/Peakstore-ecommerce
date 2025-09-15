@@ -146,19 +146,19 @@ const Products = [
 },
 {
     id: 19,
-    name:"Razer BlackWidow V4",
-    price:9990.00,
+    name:"Steam Deck OLED",
+    price:28000.00,
     category:"Gaming Gears",
-    description:"Razer BlackWidow V4 mechanical keyboard offers tactile switches, per-key RGB lighting, and dedicated macro controls for gamers.",
-    image:"/src/assets/img/gaminggears/RazerBlackWidow.jpg",
+    description:"Steam Deck OLED features a 7.4-inch HDR OLED display, custom AMD APU with RDNA 2 graphics, faster storage, and longer battery life for portable PC gaming.",
+    image:"/src/assets/img/gaminggears/steamdeck.jpg",
 },
 {
     id: 20,
-    name:"Logitech G502 X Plus",
-    price:6990.00,
+    name:"PlayStation 4 Pro",
+    price:18000.00,
     category:"Gaming Gears",
-    description:"Logitech G502 X Plus gaming mouse features LIGHTSPEED wireless, customizable buttons, and HERO 25K precision sensor.",
-    image:"/src/assets/img/gaminggears/Logitech.jpg",
+    description:"PlayStation 4 Pro offers 4K resolution, HDR support, and enhanced performance, delivering smoother graphics and immersive experiences across top PlayStation titles.",
+    image:"/src/assets/img/gaminggears/PS4.jpg",
 },
 
 {
