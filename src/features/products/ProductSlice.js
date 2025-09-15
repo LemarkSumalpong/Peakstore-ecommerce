@@ -28,9 +28,13 @@ const ProductSlice = createSlice({
         setSearchTerm: (state, action) => {
             state.searchTerm = action.payload;
             state.filteredItems = filterProducts(state)
+        },
+        setSelectedCategory: (state, action) => {
+            state.selectedCategory = action.payload;
+            state.filteredItems = filterProducts(state);
         }
-    }
+    },
 })
 
-export const {setSearchTerm} = ProductSlice.actions;
+export const {setSearchTerm, setSelectedCategory} = ProductSlice.actions;
 export default ProductSlice.reducer;
