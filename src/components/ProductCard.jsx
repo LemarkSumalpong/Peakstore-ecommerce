@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { formatPrice } from '../utils/format';
 
 function ProductCard({ product }) {
+  console.log(product.id);
   return (
     <Link>
       <div className=" w-56 h-72 shadow-lg rounded-md cursor-pointer">
