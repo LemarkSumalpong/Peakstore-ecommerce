@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import ProductGrid from "../components/ProductGrid";
 
 const Categories = [
-  'ALL',
+  'All',
   'Mobile Phones & Tablets',
   'Laptops & Computers',
   'Audio & Wearables',

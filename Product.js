@@ -287,7 +287,7 @@ const Products = [
 ];
 
 const Categories = [
-  'ALL',
+  'All',
   'Mobile Phones & Tablets',
   'Laptops & Computers',
   'Audio & Wearables',

@@ -5,6 +5,7 @@ const initialState = {
     items: Products,
     filteredItems: Products,
     searchTerm: "",
+    selectedCategory: "all",
 };
 
 // Function to filter products based on search term
