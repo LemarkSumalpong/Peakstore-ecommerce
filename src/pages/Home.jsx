@@ -7,7 +7,7 @@ const Categories = [
   'Mobile Phones & Tablets',
   'Laptops & Computers',
   'Audio & Wearables',
-  'Gaming Gears',
+  'Gaming Console',
   'Smart Home',
   'Accessories',
 ];
