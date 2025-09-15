@@ -13,7 +13,12 @@ const Categories = [
 ];
 
 function Home() {
+
   const dispatch = useDispatch();
+
+  const setSelectedCategory = (category) => {
+    dispatch({type: 'products/setSelectedCategory', payload: category});
+  }
 
   return (
     <div>
