@@ -4,7 +4,7 @@ import { formatPrice } from '../utils/format';
 function ProductCard({ product }) {
   console.log(product.id);
   return (
-    <Link>
+    <Link to={`/product/${product.id}`}>
       <div className=" w-56 h-72 shadow-lg rounded-md cursor-pointer">
         <div className="w-full h-40 flex items-center justify-center  rounded-md">
           <img
