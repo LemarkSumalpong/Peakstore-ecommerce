@@ -5,7 +5,7 @@ const initialState = {
     items: Products,
     filteredItems: Products,
     searchTerm: "",
-    selectedCategory: "all",
+    selectedCategory: "All",
 };
 
 // Function to filter products based on search term
@@ -14,7 +14,10 @@ const filterProducts = (state) => {
         const matchSearch = product.name
         .toLowerCase()
         .includes(state.searchTerm.toLowerCase());
-        return matchSearch;
+    const matchCategory = 
+        state.selectedCategory === "All" || 
+        product.category === state.selectedCategory;
+        return matchSearch && matchCategory;
     })
 }
 
