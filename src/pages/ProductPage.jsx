@@ -54,7 +54,7 @@ function Product() {
             </div>
             <div className="mb-6">
               <h3 className="font-bold mb-2 ">CATEGORY</h3>
-              <span className=" font-semibold mb-2">{product.category}</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm">{product.category}</span>
             </div>
             <button className="w-full md:w-auto bg-orange-500 text-white font-semibold px-8 py-3 rounded-md flex items-center justify-center gap-2 hover:bg-orange-600">
               <ShoppingCart />
