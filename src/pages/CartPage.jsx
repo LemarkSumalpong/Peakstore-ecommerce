@@ -21,7 +21,7 @@ function Cart() {
               <span>Total Amount</span>
             </div>
           </div>
-          <buttom>Checkout</buttom>
+          <button className="border-orange-500 bg-orange-500 shadow-md px-2 py-1 rounded-md text-white font-semibold uppercase" >Checkout</button>
          </div>
          </div>
       </div>
