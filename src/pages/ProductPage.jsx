@@ -1,7 +1,6 @@
 import { ShoppingCart } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { use } from 'react';
 
 function Product() {
 
@@ -15,7 +14,7 @@ function Product() {
   if(!product){
     return <div className='container mx-auto px-4 py-8'>
       <div className='text-center'>
-        <h2 className='text-5xl font-bold'Product Not Found></h2>
+        <h2 className='text-3xl font-bold'>Product Not Found</h2>
         <Link to='/' className=' text-2xl font-bold text-blue-600 hover:text-blue-800'>Return To Home</Link>
 
       </div>
