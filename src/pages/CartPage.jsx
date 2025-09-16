@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { formatPrice } from '../utils/format';
 import { Minus, Plus, Trash2 } from 'lucide-react';
 import { updateQuantity } from '../features/cart/CartSlice';
+import { clearCart } from '../features/cart/CartSlice';
+import toast from 'react-hot-toast';
 
 function Cart() {
   const dispatch = useDispatch();
@@ -12,6 +14,21 @@ function Cart() {
     (sum, item) => sum + item.price * item.quantity,
     0
   );
+
+  const handleCheckout = () => {
+    const toastID = toast.loading('Processing your order, please wait...');
+
+    setTimeout(() => {
+      toast.success('Order processed successfully!', { id: toastID });
+    }, 2000);
+
+    if (cartItems.lenght === 0) {
+      toast.error('Your cart is empty');
+      return;
+    }
+
+    dispatch(clearCart());
+  };
 
   if (cartItems.length === 0) {
     return (
@@ -129,7 +146,10 @@ function Cart() {
                 <span className="font-semibold">₱{formatPrice(total)}</span>
               </div>
             </div>
-            <button className="w-full bg-orange-500 hover:bg-orange-600 shadow-md px-2 py-2 rounded-md text-white font-semibold uppercase cursor-pointer">
+            <button
+              className="w-full bg-orange-500 hover:bg-orange-600 shadow-md px-2 py-2 rounded-md text-white font-semibold uppercase cursor-pointer"
+              onClick={handleCheckout}
+            >
               Checkout
             </button>
           </div>
