@@ -67,16 +67,23 @@ function NavBar() {
               type="text"
               placeholder="Search Product..."
               className="bg-zinc-100100 rounded-md border borders-zinc-100 focus:outline-none py-3 px-3 w-full"
-              value = {searchTerm}
+              value={searchTerm}
               onChange={(e) => dispatch(setSearchTerm(e.target.value))}
             />
           </form>
-          <Link to={"/cart"}>
-            <ShoppingCart
-              size={50}
-              className="cursor-pointer bg-gray-100 px-3 py-2 rounded-full"
-            />
-          </Link>
+          <div className="relative">
+            <Link to={'/cart'}>
+              <ShoppingCart
+                size={50}
+                className="cursor-pointer bg-gray-100 px-3 py-2 rounded-full"
+              />
+              {itemCount > 0 && (
+                <span className="absolute -top-2 -right-1 bg-red-500 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+                  {itemCount}
+                </span>
+              )}
+            </Link>
+          </div>
         </nav>
       </>
     </header>

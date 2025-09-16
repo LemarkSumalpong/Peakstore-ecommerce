@@ -1,7 +1,7 @@
 import { ArrowBigLeft, ChevronLeft, ShoppingCart } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import {formatPrice} from '../utils/format'
+import { formatPrice } from '../utils/format';
 
 function Product() {
   const { id } = useParams();
@@ -50,13 +50,23 @@ function Product() {
             <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
             <p className="text-gray-600 mb-6">{product.description}</p>
             <div className="mb-6">
-              <span className="text-3xl font-semibold ">₱{formatPrice(product.price)}</span>
+              <span className="text-3xl font-semibold ">
+                ₱{formatPrice(product.price)}
+              </span>
             </div>
             <div className="mb-6">
               <h3 className="font-bold mb-2 ">CATEGORY</h3>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm">{product.category}</span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm">
+                {product.category}
+              </span>
             </div>
-            <button className="w-full md:w-auto bg-orange-500 text-white font-semibold px-8 py-3 rounded-md flex items-center justify-center gap-2 hover:bg-orange-600">
+            <button
+              className="w-full md:w-auto bg-orange-500 text-white font-semibold px-8 py-3 rounded-md flex 
+            items-center justify-center gap-2 hover:bg-orange-600"
+              onClick={() =>
+                dispatch({ type: 'cart/addToCart', payload: product })
+              }
+            >
               <ShoppingCart />
               Add to Cart
             </button>
