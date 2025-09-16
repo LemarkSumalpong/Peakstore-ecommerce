@@ -1,5 +1,5 @@
 import { ShoppingCart, User } from 'lucide-react';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/Logo/logo.png';
 import { useDispatch, useSelector } from 'react-redux';
@@ -9,6 +9,9 @@ function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
   const searchTerm = useSelector((state) => state.product.searchTerm);
+
+  const cartItems = useSelector((state) => state.cart.items);
+  const itemCount = cartItems.reduce((total, item) => total + item.quantity, 0);
 
   const handleUser = () => {
     setIsOpen(!isOpen);
@@ -68,7 +71,7 @@ function NavBar() {
               onChange={(e) => dispatch(setSearchTerm(e.target.value))}
             />
           </form>
-          <Link>
+          <Link to={"/cart"}>
             <ShoppingCart
               size={50}
               className="cursor-pointer bg-gray-100 px-3 py-2 rounded-full"
