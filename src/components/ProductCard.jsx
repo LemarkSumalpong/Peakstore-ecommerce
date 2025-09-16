@@ -14,12 +14,13 @@ function ProductCard({ product }) {
           />
         </div>
         <div className='p-4'>
-          <h3 className="mt-3  font-semibold text-base items-center text-center">
+          <h3 className="mt-3  text-sm font-medium line-clamp-2 items-center text-center">
             {product.name}
           </h3>
           <div className="flex justify-between  mt-4 items-center">
             <p className='text-yellow-700 font-semibold'>₱{formatPrice(product.price)}</p>
-            <p>View Details</p>
+  
+            <p className='px-2 border-1 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition shadow-md'>View Details</p>
           </div>
         </div>
       </div>
