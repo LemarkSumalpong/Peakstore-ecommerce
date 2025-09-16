@@ -39,13 +39,14 @@ function Product() {
         </Link>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="shadow-md p-4 rounded w-[500px] h-[400px] flex justify-center items-center">
+          <div className="shadow-md p-4 rounded w-full h-80 sm:h-96 flex justify-center items-center">
             <img
               src={product.image}
               alt={product.name}
               className="max-h-full max-w-full object-contain"
             />
           </div>
+
           <div>
             <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
             <p className="text-gray-600 mb-6">{product.description}</p>
