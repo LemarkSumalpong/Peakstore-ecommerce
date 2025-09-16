@@ -1,6 +1,7 @@
 import { ArrowBigLeft, ChevronLeft, ShoppingCart } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import {formatPrice} from '../utils/format'
 
 function Product() {
   const { id } = useParams();
@@ -33,21 +34,23 @@ function Product() {
           to="/"
           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border bg-orange-400 border-gray-300 shadow-md hover:bg-orange-600  transition-colors mb-8"
         >
-          <ChevronLeft size={20} className='text-white' />
-          <span className='text-white '>
-            Back to Products
-          </span>
+          <ChevronLeft size={20} className="text-white" />
+          <span className="text-white ">Back to Products</span>
         </Link>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="shadow-md p-4 rounded w-[500px]">
-            <img src={product.image} alt={product.name} />
+          <div className="shadow-md p-4 rounded w-[500px] h-[400px] flex justify-center items-center">
+            <img
+              src={product.image}
+              alt={product.name}
+              className="max-h-full max-w-full object-contain"
+            />
           </div>
           <div>
             <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
             <p className="text-gray-600 mb-6">{product.description}</p>
             <div className="mb-6">
-              <span className="text-3xl font-bold ">{product.price}</span>
+              <span className="text-3xl font-semibold ">₱{formatPrice(product.price)}</span>
             </div>
             <div className="mb-6">
               <h3 className="font-bold mb-2 ">CATEGORY</h3>
