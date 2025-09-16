@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import { formatPrice } from "../utils/format";
 
 function Cart() {
 
@@ -33,7 +34,7 @@ function Cart() {
             <div className="space-y-2 mb-4 ">
               <div className="flex justify-between">
                 <span>Subtotal</span>
-                <span>Total Amount</span>
+                <span className="font-semibold">₱{formatPrice(total)}</span>
               </div>
               <div className="flex justify-between">
                 <span>Shipping Fee</span>
@@ -44,7 +45,7 @@ function Cart() {
                 <span>Total Amount</span>
               </div>
             </div>
-            <button className="border-orange-500 bg-orange-500 hover:bg-orange-600 shadow-md px-2 py-1 rounded-md text-white font-semibold uppercase cursor-pointer">
+            <button className="bg-orange-500 hover:bg-orange-600 shadow-md px-2 py-1 rounded-md text-white font-semibold uppercase cursor-pointer">
               Checkout
             </button>
           </div>
