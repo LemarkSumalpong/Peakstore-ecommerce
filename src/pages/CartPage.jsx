@@ -90,7 +90,15 @@ function Cart() {
                         <Plus size={16} />
                       </button>
                     </div>
-                    <div className="ml-4 text-red-500 hover:underline cursor-pointer">
+                    <div
+                      className="ml-4 text-red-500 hover:underline cursor-pointer"
+                      onClick={() =>
+                        dispatch({
+                          type: `cart/removeFromCart`,
+                          payload: item.id,
+                        })
+                      }
+                    >
                       <Trash2 size={24} />
                     </div>
                   </div>
