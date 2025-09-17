@@ -43,7 +43,7 @@ function NavBar() {
               }`}
             >
               <li>
-                <Link to="/">Sign</Link>
+                <Link to={'/login'}>Sign</Link>
               </li>
               <li>
                 <Link to="/">My Account</Link>
