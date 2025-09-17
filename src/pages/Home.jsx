@@ -36,7 +36,7 @@ function Home() {
                 onClick={() => handleCategoryClick(category)}
                 className={`
                   flex-shrink-0 px-4 py-2 rounded-full text-sm sm:text-base font-medium transition-all
-                  ${isActive ? 'bg-orange-500 text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-300'}
+                  ${isActive ? 'bg-orange-500 text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-400'}
                 `}
               >
                 {category}
