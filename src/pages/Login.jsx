@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { login } from '../App/Auth';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
+import { ClosedCaption, X } from 'lucide-react';
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -32,6 +33,13 @@ function Login() {
       <div className="relative z-10 bg-white p-8 rounded-2xl shadow-lg w-80">
         <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
 
+         <button
+          onClick={() => navigate('/')}
+          className="absolute top-3 right-3 text-gray-600 hover:text-gray-900"
+        >
+          <X size={20} />
+        </button>
+
         <input
           type="text"
           placeholder="Enter username"
@@ -50,7 +58,7 @@ function Login() {
 
         <button
           onClick={handleLogin}
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded items-center justify-center w-full"
         >
           Login
         </button>
