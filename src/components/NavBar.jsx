@@ -43,10 +43,10 @@ function NavBar() {
               }`}
             >
               <li>
-                <Link to={'/login'}>Sign</Link>
+                <Link to={'/login'} onClick={() => setIsOpen(false)}>Sign</Link>
               </li>
               <li>
-                <Link to="/">My Account</Link>
+                <Link to="/" onClick={() => setIsOpen(false)}>My Account</Link>
               </li>
             </div>
             <User
