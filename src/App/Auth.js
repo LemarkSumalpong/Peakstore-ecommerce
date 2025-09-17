@@ -1,5 +1,5 @@
-export const login = (username) => {
-    localStorage.setItem("user", JSON.stringify ({username}));
+export const login = (username, password) => {
+    localStorage.setItem("user", JSON.stringify ({username, password}));
 };
 
 export const logout = () => {
@@ -12,5 +12,5 @@ export const getCurrentUSer = () => {
 };
 
 export const isAuthenticated = () => {
-    return !! localStorage.getItem("user");
+    return !! getCurrentUSer();
 };

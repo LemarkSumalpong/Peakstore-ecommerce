@@ -22,7 +22,7 @@ function Cart() {
       toast.success('Order processed successfully!', { id: toastID });
     }, 2000);
 
-    if (cartItems.lenght === 0) {
+    if (cartItems.length === 0) {
       toast.error('Your cart is empty');
       return;
     }
