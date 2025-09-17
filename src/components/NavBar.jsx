@@ -46,7 +46,7 @@ function NavBar() {
                 <Link to={'/login'} onClick={() => setIsOpen(false)}>Sign</Link>
               </li>
               <li>
-                <Link to="/" onClick={() => setIsOpen(false)}>My Account</Link>
+                <Link to="/my-account" onClick={() => setIsOpen(false)}>My Account</Link>
               </li>
             </div>
             <User

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { login } from '../App/Auth';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
-import { ClosedCaption, X } from 'lucide-react';
+import {  X } from 'lucide-react';
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -10,7 +10,14 @@ function Login() {
   const navigate = useNavigate();
 
   const handleLogin = () => {
+    
+    
     if (username.trim() && password.trim()) {
+        const user = {
+            username: username,
+            email: username + "@example.com",
+            password: password
+        }
       login(username, password);
       const toastID = toast.loading('Logging, please wait...');
       setTimeout(() => {
@@ -19,6 +26,7 @@ function Login() {
       navigate('/');
     } else {
       alert('Please enter both username and password.');
+      toast.error('Please enter both username and password.');
     }
   };
 

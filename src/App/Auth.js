@@ -1,6 +1,12 @@
 export const login = (username, password) => {
-    localStorage.setItem("user", JSON.stringify ({username, password}));
+  const user = {
+    username,
+    password,
+    email: `${username}@gmail.com`, // add email here
+  };
+  localStorage.setItem("user", JSON.stringify(user));
 };
+
 
 export const logout = () => {
     localStorage.removeItem("user");
